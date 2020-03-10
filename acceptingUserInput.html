@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">        
+        <meta name="author" content="CHANGE-ME">
+        <meta name="description" content="CHANGE-ME">
+        <meta name="theme-color" content="#000000">
+        
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <title>Accepting user input</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+    </head>
+
+    <body>    
+        <h1>
+            My Name is : 
+        </h1>
+        
+        <h2 id="getdata">___________________</h2>
+        
+        
+        <!-- Scripts -->
+        
+        <script>
+            var name = prompt("My name is :");
+            var changeName = document.getElementById("getdata");
+            changeName.innerHTML = name.toUpperCase();
+            console.log(name);
+        </script>
+    </body>
+</html>
